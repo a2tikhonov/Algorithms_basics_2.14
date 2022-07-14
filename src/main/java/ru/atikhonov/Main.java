@@ -27,7 +27,7 @@ public class Main {
         list.add(0, "String000");
         System.out.println("Arrays.toString(list.toArray()) = " + Arrays.toString(list.toArray()));
         System.out.println("list.size() = " + list.size());
-        list.add("String01");
+        System.out.println("list.add(\"String01\") = " + list.add("String01"));
         list.add("String02");
         list.add("String03");
         System.out.println("Arrays.toString(list.toArray()) = " + Arrays.toString(list.toArray()));
