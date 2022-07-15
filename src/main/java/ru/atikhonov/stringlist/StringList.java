@@ -77,5 +77,4 @@ public interface StringList {
     // и вернуть его.
     String[] toArray();
 
-    int getArrSize();
 }

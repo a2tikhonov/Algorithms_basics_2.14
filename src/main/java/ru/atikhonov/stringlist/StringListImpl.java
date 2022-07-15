@@ -102,6 +102,9 @@ public class StringListImpl implements StringList {
 
     @Override
     public String remove(int index) {
+        if (index >= this.index) {
+            throw new ArrayIndexOutOfBoundsException();
+        }
         if (arr[index] == null) {
             throw new IllegalArgumentException();
         }
@@ -248,8 +251,4 @@ public class StringListImpl implements StringList {
         }
     }
 
-    @Override
-    public int getArrSize() {
-        return arr.length;
-    }
 }

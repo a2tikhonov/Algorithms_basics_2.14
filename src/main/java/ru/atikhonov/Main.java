@@ -37,7 +37,6 @@ public class Main {
         list.add("String04");
         list.add(2, "String022");
         System.out.println("Arrays.toString(list.toArray()) = " + Arrays.toString(list.toArray()));
-        System.out.println("list.getArrSize() = " + list.getArrSize());
         list.clear();
         System.out.println("Arrays.toString(list.toArray()) = " + Arrays.toString(list.toArray()));
         list.add("String01");
